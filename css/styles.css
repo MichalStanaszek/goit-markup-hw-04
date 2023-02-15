@@ -184,7 +184,7 @@ button {
 }
 
 .post-box {
-  margin: 94px 15px;
+  margin-bottom: 94px;
 }
 .post {
   display: flex;
@@ -345,4 +345,19 @@ button {
 
 .icon {
   margin-right: 5px;
+}
+
+.post-icon {
+  background-color: #f5f4fa;
+  padding: 25px 100px;
+  margin-top: 94px;
+  margin-bottom: 30px;
+}
+
+.post-clock {
+  margin: 0px 30px;
+}
+
+.post-diagram {
+  margin-right: 30px;
 }
