@@ -103,6 +103,12 @@ body {
 
 /* pierwszy div */
 .wrapper {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(/goit-markup-hw-04/images/Main-page/office.jpg);
+  max-width: 1600px;
   background-color: var(--brand-bg-color);
   display: flex;
   flex-direction: column;
