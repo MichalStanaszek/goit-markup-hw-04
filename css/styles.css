@@ -433,6 +433,7 @@ button {
   margin-left: 10px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  --color1: #ffffff;
 }
 .media:first-child {
   margin-left: 0px;
@@ -441,7 +442,6 @@ button {
   cursor: pointer;
   background-color: var(--brand-color);
   border-radius: 50%;
-  --color1: #ffffff;
 }
 
 .summary-address {
