@@ -315,10 +315,7 @@ button {
 
 .summary {
   background-color: var(--brand-bg-color);
-  padding: 60px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /* padding: 60px 0; */
 }
 
 .container > p {
@@ -364,7 +361,7 @@ button {
 
 .social-flex {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin: 0 32px;
   max-height: 44px;
 }
@@ -378,4 +375,67 @@ button {
   background-color: var(--brand-color);
   border-radius: 50%;
   fill: #ffffff;
+}
+
+/* sekcja Nasi klienci */
+.customers-header {
+  font-size: 2.57rem;
+  font-weight: 700;
+  color: #212121;
+  text-align: center;
+  margin-top: 149px;
+  margin-bottom: 50px;
+}
+
+.customers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customers-logo {
+  max-width: 170px;
+  max-height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  margin-bottom: 94px;
+}
+
+.customers-logo:hover {
+  cursor: pointer;
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+}
+.join-us-header {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.summary-socials-flex {
+  display: flex;
+  justify-content: space-between;
+  max-height: 44px;
+}
+
+.media {
+  margin-left: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.media:first-child {
+  margin-left: 0px;
+}
+.media:hover {
+  cursor: pointer;
+  background-color: var(--brand-color);
+  border-radius: 50%;
+}
+
+.summary-address {
+  margin: 60px 70px 60px 0px;
+}
+.summary-socials {
+  padding-bottom: 50px;
 }
