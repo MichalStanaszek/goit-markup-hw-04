@@ -295,6 +295,13 @@ button {
   border: 1px solid #eeeeee;
 }
 
+.card-properties:hover {
+  cursor: pointer;
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .card-details {
   margin: 0;
 }
@@ -315,7 +322,6 @@ button {
 
 .summary {
   background-color: var(--brand-bg-color);
-  /* padding: 60px 0; */
 }
 
 .container > p {
