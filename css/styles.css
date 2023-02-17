@@ -83,6 +83,8 @@ body {
 .contact:hover,
 .contact:focus {
   color: var(--brand-color);
+  --color2: var(--brand-color);
+  --color4: var(--brand-color);
 }
 
 .page-contact {
@@ -380,7 +382,7 @@ button {
   cursor: pointer;
   background-color: var(--brand-color);
   border-radius: 50%;
-  fill: #ffffff;
+  --color1: #ffffff;
 }
 
 /* sekcja Nasi klienci */
@@ -408,8 +410,10 @@ button {
 
 .customers-logo:hover {
   cursor: pointer;
-  border: 1px solid #2196f3;
+  border: 1px solid var(--brand-color);
   border-radius: 4px;
+  --color1: var(--brand-color);
+  --color2: var(--brand-color);
 }
 .join-us-header {
   color: #ffffff;
@@ -437,6 +441,7 @@ button {
   cursor: pointer;
   background-color: var(--brand-color);
   border-radius: 50%;
+  --color1: #ffffff;
 }
 
 .summary-address {
